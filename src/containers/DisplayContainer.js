@@ -9,9 +9,23 @@ class DisplayContainer extends React.Component {
   render() {
     console.log('state in the display', this.props.state);
     return (
-      <div>
-        Yo! DisplayContainer
-      </div>
+      <React.Fragment>
+        {(this.props.state.renderHome === true) ? (
+          <div>
+            renderHome
+          </div>
+        ) : (null)}
+        {(this.props.state.renderAbout === true) ? (
+          <div>
+            renderAbout
+          </div>
+        ) : (null)}
+        {(this.props.state.renderContact === true) ? (
+          <div>
+            renderContact
+          </div>
+        ) : (null)}
+      </React.Fragment>
     )
   }
 }

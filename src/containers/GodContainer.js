@@ -14,8 +14,6 @@ class GodContainer extends React.Component {
   }
 
   handlePageChange = (pageName) => {
-    console.log('jizz');
-    console.log(pageName);
     if (pageName === 'home') {
       this.setState({
         renderHome: true,
