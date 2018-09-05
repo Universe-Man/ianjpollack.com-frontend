@@ -9,17 +9,46 @@ class GodContainer extends React.Component {
       renderHome: true,
       renderAbout: false,
       renderContact: false,
-      renderVideos: false,
-      renderPhotos: false,
-      renderCode: false,
+      headerActiveItem: 'home',
     }
+  }
+
+  handlePageChange = (pageName) => {
+    console.log('jizz');
+    console.log(pageName);
+    if (pageName === 'home') {
+      this.setState({
+        renderHome: true,
+        renderAbout: false,
+        renderContact: false,
+      })
+    } else if (pageName === 'about') {
+      this.setState({
+        renderHome: false,
+        renderAbout: true,
+        renderContact: false,
+      })
+    } else if (pageName === 'contact') {
+      this.setState({
+        renderHome: false,
+        renderAbout: false,
+        renderContact: true,
+      })
+    }
+  }
+
+  handleHeaderClick = (event, name) => {
+    this.setState({
+      headerActiveItem: name.name
+    })
+    this.handlePageChange(name.name)
   }
 
   render() {
     return(
       <div id="GodContainer">
-        <Header />
-        <DisplayContainer />
+        <Header activeItem={this.state.headerActiveItem} handleHeaderClick={this.handleHeaderClick} />
+        <DisplayContainer state={this.state} />
       </div>
     )
   }

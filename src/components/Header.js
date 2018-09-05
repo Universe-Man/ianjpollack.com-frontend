@@ -2,40 +2,15 @@ import React from 'react';
 import { Menu, Button } from 'semantic-ui-react'
 import '../assets/Header.css';
 
-
-
-class Header extends React.Component {
-  constructor() {
-    super();
-    this.state = {
-      activeItem: 'home'
-    }
-  }
-
-  handleItemClick = (event, name) => {
-    this.setState({
-      activeItem: name.name
-    })
-  }
-
-  render() {
-    const activeItem = this.state.activeItem
+const Header = (props) => {
+  let activeItem = props.activeItem
     return (
-      <Menu inverted id="Header" size="huge" color="white" fluid widths={3}>
-              <Menu.Item name='home' active={activeItem === 'home'} onClick={this.handleItemClick} />
-              <Menu.Item
-                name='about'
-                active={activeItem === 'about'}
-                onClick={this.handleItemClick}
-              />
-              <Menu.Item
-                name='contact'
-                active={activeItem === 'contact'}
-                onClick={this.handleItemClick}
-              />
+      <Menu inverted id="Header" size="huge" color="black" fluid widths={3}>
+        <Menu.Item name='home' active={activeItem === 'home'} onClick={props.handleHeaderClick} />
+        <Menu.Item name='about' active={activeItem === 'about'} onClick={props.handleHeaderClick} />
+        <Menu.Item name='contact' active={activeItem === 'contact'} onClick={props.handleHeaderClick} />
       </Menu>
     )
-  }
 }
 
 export default Header;

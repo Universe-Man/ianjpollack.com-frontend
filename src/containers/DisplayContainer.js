@@ -7,6 +7,7 @@ class DisplayContainer extends React.Component {
   }
 
   render() {
+    console.log('state in the display', this.props.state);
     return (
       <div>
         Yo! DisplayContainer
