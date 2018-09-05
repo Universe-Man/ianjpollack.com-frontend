@@ -1,0 +1,19 @@
+#homePage {
+  background-color: #4c6384;
+}
+
+#homeText1 {
+  font-size: 105px;
+  color: #4c6384;
+  position: absolute;
+  left: 90px;
+  top: 77px;
+}
+
+#homeText2 {
+  font-size: 45px;
+  color: #4c6384;
+  position: absolute;
+  right: 80px;
+  bottom: 50px;
+}
