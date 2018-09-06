@@ -17,3 +17,76 @@
   right: 80px;
   bottom: 50px;
 }
+
+#aboutText1 {
+  font-size: 45px;
+  color: #4c6384;
+  position: absolute;
+  left: 90px;
+  top: 95px;
+}
+
+
+
+
+
+#aboutTextItem1 {
+  font-size: 30px;
+  color: #4c6384;
+  position: absolute;
+  left: 100px;
+  bottom: 450px;
+  width: 300px;
+}
+#aboutTextItem2 {
+  font-size: 30px;
+  color: #4c6384;
+  position: absolute;
+  left: 100px;
+  bottom: 190px;
+  width: 160px;
+}
+#aboutTextItem3 {
+  font-size: 30px;
+  color: #4c6384;
+  position: absolute;
+  left: 75px;
+  top: 330px;
+}
+#aboutTextItem4 {
+  font-size: 30px;
+  color: #4c6384;
+  position: absolute;
+  right: 80px;
+  bottom: 450px;
+  width: 400px;
+}
+#aboutTextItem5 {
+  font-size: 30px;
+  color: #4c6384;
+  position: absolute;
+  right: 80px;
+  bottom: 100px;
+}
+#aboutTextItem6 {
+  font-size: 30px;
+  color: #4c6384;
+  position: absolute;
+  right: 180px;
+  bottom: 380px;
+}
+#aboutTextItem7 {
+  font-size: 30px;
+  color: #4c6384;
+  position: absolute;
+  right: 130px;
+  bottom: 180px;
+  width: 500px;
+}
+#aboutTextItem8 {
+  font-size: 30px;
+  color: #4c6384;
+  position: absolute;
+  right: 80px;
+  bottom: 300px;
+}
