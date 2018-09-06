@@ -26,12 +26,18 @@ class DisplayContainer extends React.Component {
             <p id="aboutTextItem5">Great at <del>playing</del> watching baseball.</p>
             <p id="aboutTextItem6">Likes boardgames not named "Clue".</p>
             <p id="aboutTextItem7">Can solve a Rubix Cube way slower than the guys on YouTube.</p>
-            <p id="aboutTextItem8">Built this very website with his own two hands.</p>
+            <p id="aboutTextItem8">Built this website with his own two hands.</p>
             <img src={otherImage} alt="Ian tie left" width="1200" height="800" ></img>
           </div>
         ) : (null)}
         {(this.props.state.renderContact === true) ? (
           <div id="contactPage">
+            <h2 id="contactText1">Is Ian a real person?</h2>
+            <h2 id="contactText2">Yes! And here's the proof:</h2>
+            <a href="https://github.com/Universe-Man" target="_blank" id="contactLink1">Github</a>
+            <a href="https://www.linkedin.com/in/ianjpollack/" target="_blank" id="contactLink2">LinkedIn</a>
+            <a href="https://www.facebook.com/ianiscool" target="_blank" id="contactLink3">Facebook</a>
+            <a href="https://twitter.com/ianjpollack" target="_blank" id="contactLink4">Twitter</a>
             <img src={otherImage} alt="Ian tie left" width="1200" height="800" ></img>
           </div>
         ) : (null)}

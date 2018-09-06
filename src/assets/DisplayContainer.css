@@ -87,6 +87,51 @@
   font-size: 30px;
   color: #4c6384;
   position: absolute;
-  right: 80px;
+  right: 100px;
   bottom: 300px;
+}
+
+#contactText1 {
+  font-size: 45px;
+  color: #4c6384;
+  position: absolute;
+  left: 110px;
+  top: 105px;
+}
+
+#contactText2 {
+  font-size: 45px;
+  color: #4c6384;
+  position: absolute;
+  right: 130px;
+  top: 115px;
+}
+
+#contactLink1 {
+  font-size: 40px;
+  color: #4c6384;
+  position: absolute;
+  right: 480px;
+  top: 265px;
+}
+#contactLink2 {
+  font-size: 40px;
+  color: #4c6384;
+  position: absolute;
+  right: 400px;
+  top: 450px;
+}
+#contactLink3 {
+  font-size: 40px;
+  color: #4c6384;
+  position: absolute;
+  right: 180px;
+  top: 340px;
+}
+#contactLink4 {
+  font-size: 40px;
+  color: #4c6384;
+  position: absolute;
+  right: 150px;
+  top: 550px;
 }
