@@ -2,9 +2,11 @@
   background-color: #4c6384;
 }
 
+/* ALL TEXT COLOR WAS #4c6384 AND CHANGED TO #33af56 BECAUSE OF SYTLING ISSUES WITH THE BACKGROUND */
+
 #homeText1 {
   font-size: 105px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   left: 90px;
   top: 77px;
@@ -12,7 +14,7 @@
 
 #homeText2 {
   font-size: 45px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   right: 80px;
   bottom: 50px;
@@ -20,7 +22,7 @@
 
 #aboutText1 {
   font-size: 45px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   left: 90px;
   top: 95px;
@@ -32,7 +34,7 @@
 
 #aboutTextItem1 {
   font-size: 30px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   left: 100px;
   bottom: 450px;
@@ -40,7 +42,7 @@
 }
 #aboutTextItem2 {
   font-size: 30px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   left: 100px;
   bottom: 190px;
@@ -48,14 +50,14 @@
 }
 #aboutTextItem3 {
   font-size: 30px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   left: 75px;
   top: 330px;
 }
 #aboutTextItem4 {
   font-size: 30px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   right: 80px;
   bottom: 450px;
@@ -63,21 +65,21 @@
 }
 #aboutTextItem5 {
   font-size: 30px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   right: 80px;
   bottom: 100px;
 }
 #aboutTextItem6 {
   font-size: 30px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   right: 180px;
   bottom: 380px;
 }
 #aboutTextItem7 {
   font-size: 30px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   right: 130px;
   bottom: 180px;
@@ -85,7 +87,7 @@
 }
 #aboutTextItem8 {
   font-size: 30px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   right: 100px;
   bottom: 300px;
@@ -93,7 +95,7 @@
 
 #contactText1 {
   font-size: 45px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   left: 110px;
   top: 105px;
@@ -101,7 +103,7 @@
 
 #contactText2 {
   font-size: 45px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   right: 130px;
   top: 115px;
@@ -109,28 +111,28 @@
 
 #contactLink1 {
   font-size: 40px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   right: 480px;
   top: 265px;
 }
 #contactLink2 {
   font-size: 40px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   right: 400px;
   top: 450px;
 }
 #contactLink3 {
   font-size: 40px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   right: 180px;
   top: 340px;
 }
 #contactLink4 {
   font-size: 40px;
-  color: #4c6384;
+  color: #33af56;
   position: absolute;
   right: 150px;
   top: 550px;
