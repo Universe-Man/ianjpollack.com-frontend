@@ -6,7 +6,6 @@ import otherImage from '../images/ian_tie_left_whitebg.jpg';
 class DisplayContainer extends React.Component {
 
   render() {
-    console.log('state in the display', this.props.state);
     return (
       <React.Fragment>
         {(this.props.state.renderHome === true) ? (
