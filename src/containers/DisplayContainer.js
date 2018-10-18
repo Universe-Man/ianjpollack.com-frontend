@@ -10,6 +10,7 @@ class DisplayContainer extends React.Component {
       <React.Fragment>
         {(this.props.state.renderHome === true) ? (
           <div id="homePage">
+            <br></br>
             <h2 id="homeText1">Ian Pollack</h2>
             <h2 id="homeText2">thinks you're cool</h2>
             <img src={homeImage} alt="Ian tie center" width="1200" height="800" ></img>
@@ -17,6 +18,7 @@ class DisplayContainer extends React.Component {
         ) : (null)}
         {(this.props.state.renderAbout === true) ? (
           <div id="aboutPage">
+            <br></br>
             <h2 id="aboutText1">Here are some <del>interesting</del> facts about Ian:</h2>
             <p id="aboutTextItem1">Performs improv and standup comedy.</p>
             <p id="aboutTextItem2">Writer and Voice-Actor</p>
@@ -31,6 +33,7 @@ class DisplayContainer extends React.Component {
         ) : (null)}
         {(this.props.state.renderContact === true) ? (
           <div id="contactPage">
+            <br></br>
             <h2 id="contactText1">Is Ian a real person?</h2>
             <h2 id="contactText2">Yes! And here's the proof:</h2>
             <a href="https://github.com/Universe-Man" target="_blank" id="contactLink1">Github</a>
