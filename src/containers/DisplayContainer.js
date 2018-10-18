@@ -22,7 +22,7 @@ class DisplayContainer extends React.Component {
             <p id="aboutTextItem2">Writer and Voice-Actor</p>
             <p id="aboutTextItem3">Deals Blackjack and Craps.</p>
             <p id="aboutTextItem4">Plays the ukulele well enough to say he plays the ukulele.</p>
-            <p id="aboutTextItem5">Great at <del>playing</del> watching baseball.</p>
+            <p id="aboutTextItem5">Great at playing baseball from the couch.</p>
             <p id="aboutTextItem6">Likes boardgames not named "Clue".</p>
             <p id="aboutTextItem7">Can solve a Rubix Cube way slower than the guys on YouTube.</p>
             <p id="aboutTextItem8">Built this website with his own two hands.</p>
@@ -40,6 +40,9 @@ class DisplayContainer extends React.Component {
             <img src={otherImage} alt="Ian tie left" width="1200" height="800" ></img>
           </div>
         ) : (null)}
+        <footer id="footer">
+          <p>© 2018 by Ian Pollack</p>
+        </footer>
       </React.Fragment>
     )
   }
