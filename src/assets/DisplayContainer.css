@@ -34,96 +34,84 @@
 
 
 
-/* FIRST ONE TO ADAPTIVE STYLE */
+/* COMPLETE */
 
 @media screen and (min-width: 1440px) {
-  #homePage {
-    background-color: blue;
-  }
-
   #footer {
     font-size: 25px;
     padding: 15px;
   }
-
   #homeText1 {
     font-size: 105px;
     color: #33af56;
     position: absolute;
-    left: 90px;
-    top: 77px;
+    left: 150px;
+    top: 90px;
   }
-
   #homeText2 {
     font-size: 45px;
     color: #33af56;
     position: absolute;
-    right: 80px;
+    right: 150px;
     bottom: 50px;
   }
-
   #aboutText1 {
     font-size: 45px;
     color: #33af56;
     position: absolute;
-    left: 90px;
+    left: 145px;
     top: 95px;
   }
-
-
-
-
-
   #aboutTextItem1 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    left: 100px;
-    bottom: 450px;
+    left: 150px;
+    bottom: 480px;
     width: 300px;
   }
   #aboutTextItem2 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    left: 100px;
-    bottom: 190px;
+    left: 170px;
+    bottom: 210px;
     width: 160px;
   }
   #aboutTextItem3 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    left: 75px;
-    top: 330px;
+    left: 145px;
+    top: 370px;
   }
   #aboutTextItem4 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    right: 80px;
-    bottom: 450px;
+    right: 200px;
+    bottom: 490px;
     width: 400px;
   }
   #aboutTextItem5 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    right: 80px;
-    bottom: 100px;
+    right: 180px;
+    bottom: 1px;
   }
   #aboutTextItem6 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    right: 180px;
-    bottom: 380px;
+    right: 250px;
+    bottom: 400px;
   }
   #aboutTextItem7 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    right: 130px;
+    right: 180px;
     bottom: 180px;
     width: 500px;
   }
@@ -131,59 +119,54 @@
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    right: 100px;
-    bottom: 300px;
+    right: 150px;
+    bottom: 320px;
   }
-
   #contactText1 {
-    font-size: 45px;
+    font-size: 50px;
     color: #33af56;
     position: absolute;
-    left: 110px;
+    left: 160px;
     top: 105px;
   }
-
   #contactText2 {
-    font-size: 45px;
+    font-size: 50px;
     color: #33af56;
     position: absolute;
-    right: 130px;
-    top: 115px;
+    right: 200px;
+    top: 155px;
   }
-
   #contactLink1 {
     font-size: 40px;
     color: #33af56;
     position: absolute;
-    right: 480px;
-    top: 265px;
+    right: 530px;
+    top: 315px;
   }
   #contactLink2 {
     font-size: 40px;
     color: #33af56;
     position: absolute;
-    right: 400px;
-    top: 450px;
+    right: 450px;
+    top: 500px;
   }
   #contactLink3 {
     font-size: 40px;
     color: #33af56;
     position: absolute;
-    right: 180px;
-    top: 340px;
+    right: 230px;
+    top: 390px;
   }
   #contactLink4 {
     font-size: 40px;
     color: #33af56;
     position: absolute;
-    right: 150px;
-    top: 550px;
+    right: 200px;
+    top: 600px;
   }
-
-
 }
 
-/* FIRST ONE TO ADAPTIVE STYLE */
+/* COMPLETE */
 
 
 
@@ -202,7 +185,7 @@
 
 }
 
-
+/*
 #footer {
   font-size: 25px;
   padding: 15px;
@@ -340,4 +323,4 @@
   position: absolute;
   right: 150px;
   top: 550px;
-}
+} */
