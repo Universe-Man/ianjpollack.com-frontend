@@ -24,6 +24,8 @@
 
 }
 
+/* COMPLETE */
+
 @media screen and (min-width: 1366px) {
   #homePage {
     background-color: orange;
@@ -113,51 +115,51 @@
     right: 120px;
     bottom: 240px;
   }
-
   #contactText1 {
     font-size: 50px;
     color: #33af56;
     position: absolute;
-    left: 160px;
+    left: 130px;
     top: 105px;
   }
   #contactText2 {
     font-size: 50px;
     color: #33af56;
     position: absolute;
-    right: 200px;
+    right: 150px;
     top: 155px;
   }
   #contactLink1 {
     font-size: 40px;
     color: #33af56;
     position: absolute;
-    right: 530px;
+    right: 520px;
     top: 315px;
   }
   #contactLink2 {
     font-size: 40px;
     color: #33af56;
     position: absolute;
-    right: 450px;
+    right: 420px;
     top: 500px;
   }
   #contactLink3 {
     font-size: 40px;
     color: #33af56;
     position: absolute;
-    right: 230px;
+    right: 200px;
     top: 390px;
   }
   #contactLink4 {
     font-size: 40px;
     color: #33af56;
     position: absolute;
-    right: 200px;
+    right: 170px;
     top: 600px;
   }
 }
 
+/* COMPLETE */
 
 
 
