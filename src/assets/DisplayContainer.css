@@ -17,12 +17,142 @@
 
 }
 
+/* COMPLETE */
+
 @media screen and (min-width: 1280px) {
   #homePage {
     background-color: green;
   }
-
+  #footer {
+    font-size: 25px;
+    padding: 15px;
+  }
+  #homeText1 {
+    font-size: 105px;
+    color: #33af56;
+    position: absolute;
+    left: 120px;
+    top: 90px;
+  }
+  #homeText2 {
+    font-size: 45px;
+    color: #33af56;
+    position: absolute;
+    right: 115px;
+    bottom: 70px;
+  }
+  #aboutText1 {
+    font-size: 45px;
+    color: #33af56;
+    position: absolute;
+    left: 120px;
+    top: 100px;
+  }
+  #aboutTextItem1 {
+    font-size: 30px;
+    color: #33af56;
+    position: absolute;
+    left: 120px;
+    bottom: 430px;
+    width: 300px;
+  }
+  #aboutTextItem2 {
+    font-size: 30px;
+    color: #33af56;
+    position: absolute;
+    left: 140px;
+    bottom: 150px;
+    width: 160px;
+  }
+  #aboutTextItem3 {
+    font-size: 30px;
+    color: #33af56;
+    position: absolute;
+    left: 115px;
+    top: 370px;
+  }
+  #aboutTextItem4 {
+    font-size: 30px;
+    color: #33af56;
+    position: absolute;
+    right: 140px;
+    bottom: 425px;
+    width: 400px;
+  }
+  #aboutTextItem5 {
+    font-size: 30px;
+    color: #33af56;
+    position: absolute;
+    right: 140px;
+    bottom: -95px;
+  }
+  #aboutTextItem6 {
+    font-size: 30px;
+    color: #33af56;
+    position: absolute;
+    right: 200px;
+    bottom: 350px;
+  }
+  #aboutTextItem7 {
+    font-size: 30px;
+    color: #33af56;
+    position: absolute;
+    right: 140px;
+    bottom: 125px;
+    width: 500px;
+  }
+  #aboutTextItem8 {
+    font-size: 30px;
+    color: #33af56;
+    position: absolute;
+    right: 120px;
+    bottom: 265px;
+  }
+  #contactText1 {
+    font-size: 50px;
+    color: #33af56;
+    position: absolute;
+    left: 130px;
+    top: 105px;
+  }
+  #contactText2 {
+    font-size: 50px;
+    color: #33af56;
+    position: absolute;
+    right: 150px;
+    top: 155px;
+  }
+  #contactLink1 {
+    font-size: 40px;
+    color: #33af56;
+    position: absolute;
+    right: 520px;
+    top: 315px;
+  }
+  #contactLink2 {
+    font-size: 40px;
+    color: #33af56;
+    position: absolute;
+    right: 420px;
+    top: 500px;
+  }
+  #contactLink3 {
+    font-size: 40px;
+    color: #33af56;
+    position: absolute;
+    right: 200px;
+    top: 390px;
+  }
+  #contactLink4 {
+    font-size: 40px;
+    color: #33af56;
+    position: absolute;
+    right: 170px;
+    top: 600px;
+  }
 }
+
+/* COMPLETE */
 
 /* COMPLETE */
 
