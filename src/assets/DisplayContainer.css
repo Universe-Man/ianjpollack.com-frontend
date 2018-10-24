@@ -579,28 +579,28 @@
     font-size: 105px;
     color: #33af56;
     position: absolute;
-    left: 230px;
+    left: 390px;
     top: 90px;
   }
   #homeText2 {
     font-size: 45px;
     color: #33af56;
     position: absolute;
-    right: 210px;
-    bottom: 50px;
+    right: 375px;
+    bottom: 80px;
   }
   #aboutText1 {
     font-size: 45px;
     color: #33af56;
     position: absolute;
-    left: 220px;
+    left: 380px;
     top: 95px;
   }
   #aboutTextItem1 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    left: 245px;
+    left: 405px;
     bottom: 550px;
     width: 300px;
   }
@@ -608,7 +608,7 @@
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    left: 250px;
+    left: 400px;
     bottom: 240px;
     width: 160px;
   }
@@ -616,14 +616,14 @@
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    left: 225px;
+    left: 385px;
     top: 370px;
   }
   #aboutTextItem4 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    right: 250px;
+    right: 430px;
     bottom: 540px;
     width: 400px;
   }
@@ -631,21 +631,21 @@
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    right: 240px;
+    right: 410px;
     bottom: 40px;
   }
   #aboutTextItem6 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    right: 270px;
+    right: 450px;
     bottom: 455px;
   }
   #aboutTextItem7 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    right: 230px;
+    right: 410px;
     bottom: 235px;
     width: 500px;
   }
@@ -653,49 +653,50 @@
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    right: 230px;
+    right: 410px;
     bottom: 375px;
   }
   #contactText1 {
     font-size: 50px;
     color: #33af56;
     position: absolute;
-    left: 230px;
+    left: 390px;
     top: 105px;
   }
   #contactText2 {
     font-size: 50px;
     color: #33af56;
     position: absolute;
-    right: 250px;
+    right: 400px;
     top: 155px;
   }
+
   #contactLink1 {
     font-size: 40px;
     color: #33af56;
     position: absolute;
-    right: 600px;
+    right: 760px;
     top: 335px;
   }
   #contactLink2 {
     font-size: 40px;
     color: #33af56;
     position: absolute;
-    right: 520px;
+    right: 680px;
     top: 520px;
   }
   #contactLink3 {
     font-size: 40px;
     color: #33af56;
     position: absolute;
-    right: 300px;
+    right: 460px;
     top: 410px;
   }
   #contactLink4 {
     font-size: 40px;
     color: #33af56;
     position: absolute;
-    right: 270px;
+    right: 430px;
     top: 620px;
   }
 }
