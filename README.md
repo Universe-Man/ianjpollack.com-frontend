@@ -1,4 +1,4 @@
-run npm build when you want to officially update for the website so you have the right files to place in the public/static folder to connect in index.html
+"npm run build" when you want to officially update for the website so you have the right files to place in the public/static folder to connect in index.html
 
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
