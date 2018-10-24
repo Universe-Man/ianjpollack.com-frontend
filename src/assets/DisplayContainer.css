@@ -158,7 +158,7 @@
     font-size: 45px;
     color: #33af56;
     position: absolute;
-    right: 120px;
+    right: 110px;
     bottom: 50px;
   }
   #aboutText1 {
@@ -173,7 +173,7 @@
     color: #33af56;
     position: absolute;
     left: 120px;
-    bottom: 400px;
+    bottom: 490px;
     width: 300px;
   }
   #aboutTextItem2 {
@@ -196,29 +196,29 @@
     color: #33af56;
     position: absolute;
     right: 140px;
-    bottom: 400px;
+    bottom: 480px;
     width: 400px;
   }
   #aboutTextItem5 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
-    right: 140px;
-    bottom: -120px;
+    right: 120px;
+    bottom: -40px;
   }
   #aboutTextItem6 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
     right: 200px;
-    bottom: 325px;
+    bottom: 405px;
   }
   #aboutTextItem7 {
     font-size: 30px;
     color: #33af56;
     position: absolute;
     right: 140px;
-    bottom: 100px;
+    bottom: 180px;
     width: 500px;
   }
   #aboutTextItem8 {
@@ -226,7 +226,7 @@
     color: #33af56;
     position: absolute;
     right: 120px;
-    bottom: 240px;
+    bottom: 320px;
   }
   #contactText1 {
     font-size: 50px;
