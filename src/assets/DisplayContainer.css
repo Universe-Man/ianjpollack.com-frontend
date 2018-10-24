@@ -1,6 +1,10 @@
 #homePage {
   background-color: #4c6384;
 }
+#footer {
+  font-size: 25px;
+  padding: 15px;
+}
 
 /* ALL TEXT COLOR WAS #4c6384 AND CHANGED TO #33af56 BECAUSE OF SYTLING ISSUES WITH THE BACKGROUND */
 
@@ -16,16 +20,7 @@
   }
 } */
 
-/* COMPLETE */
-
 @media screen and (min-width: 1280px) {
-  #homePage {
-    background-color: green;
-  }
-  #footer {
-    font-size: 25px;
-    padding: 15px;
-  }
   #homeText1 {
     font-size: 105px;
     color: #33af56;
@@ -150,20 +145,8 @@
     top: 600px;
   }
 }
-
-/* COMPLETE */
-
-
-/* COMPLETE */
-
+/* not done */
 @media screen and (min-width: 1366px) {
-  #homePage {
-    background-color: orange;
-  }
-  #footer {
-    font-size: 25px;
-    padding: 15px;
-  }
   #homeText1 {
     font-size: 105px;
     color: #33af56;
@@ -288,20 +271,8 @@
     top: 600px;
   }
 }
-
-/* COMPLETE */
-
-
-/* COMPLETE */
-
+/* not done */
 @media screen and (min-width: 1440px) {
-  #homePage {
-    background-color: blue;
-  }
-  #footer {
-    font-size: 25px;
-    padding: 15px;
-  }
   #homeText1 {
     font-size: 105px;
     color: #33af56;
@@ -426,20 +397,9 @@
     top: 600px;
   }
 }
-
-/* COMPLETE */
-
-
-/* COMPLETE */
+/* not done */
 
 @media screen and (min-width: 1600px) {
-  #homePage {
-    background-color: pink;
-  }
-  #footer {
-    font-size: 25px;
-    padding: 15px;
-  }
   #homeText1 {
     font-size: 105px;
     color: #33af56;
@@ -565,16 +525,7 @@
   }
 }
 
-/* COMPLETE */
-
 @media screen and (min-width: 1920px) {
-  #homePage {
-    background-color: purple;
-  }
-  #footer {
-    font-size: 25px;
-    padding: 15px;
-  }
   #homeText1 {
     font-size: 105px;
     color: #33af56;
