@@ -9,6 +9,8 @@ class GodContainer extends React.Component {
       renderHome: true,
       renderAbout: false,
       renderContact: false,
+      renderCode: false,
+      renderComedy: false,
       headerActiveItem: 'home',
     }
   }
@@ -19,18 +21,40 @@ class GodContainer extends React.Component {
         renderHome: true,
         renderAbout: false,
         renderContact: false,
+        renderCode: false,
+        renderComedy: false,
       })
     } else if (pageName === 'about') {
       this.setState({
         renderHome: false,
         renderAbout: true,
         renderContact: false,
+        renderCode: false,
+        renderComedy: false,
       })
     } else if (pageName === 'contact') {
       this.setState({
         renderHome: false,
         renderAbout: false,
         renderContact: true,
+        renderCode: false,
+        renderComedy: false,
+      })
+    } else if (pageName === 'code') {
+      this.setState({
+        renderHome: false,
+        renderAbout: false,
+        renderContact: false,
+        renderCode: true,
+        renderComedy: false,
+      })
+    } else if (pageName === 'comedy') {
+      this.setState({
+        renderHome: false,
+        renderAbout: false,
+        renderContact: false,
+        renderCode: false,
+        renderComedy: true,
       })
     }
   }
