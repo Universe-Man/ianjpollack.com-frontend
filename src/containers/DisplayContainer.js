@@ -59,20 +59,22 @@ class DisplayContainer extends React.Component {
             <a href="https://github.com/Universe-Man/Property-Pal" target="_blank" id="projectRepoLink5(PropertyPal)">PropertyPal</a>
             <a href="https://github.com/Universe-Man/module-one-final-project-guidelines-nyc-web-040218" target="_blank" id="projectRepoLink6(D/D-Shortcut)">D&D Shortcut</a>
             <a href="https://github.com/Universe-Man/ianjpollack.com-frontend" target="_blank" id="projectRepoLink7(ianjpollack.com)">This Website!</a>
-            
+
             <img src={otherImage} alt="Ian tie left" width="1200" height="800" ></img>
           </div>
         ) : (null)}
 
         {(this.props.state.renderComedy === true) ? (
-          <div id="contactPage">
+          <div id="comedyPage">
             <br></br>
-            <h2 id="contactText1">Is Ian a real person?</h2>
-            <h2 id="contactText2">Yes! And here's the proof:</h2>
-            <a href="https://github.com/Universe-Man" target="_blank" id="contactLink1">Github</a>
-            <a href="https://www.linkedin.com/in/ianjpollack/" target="_blank" id="contactLink2">LinkedIn</a>
-            <a href="https://www.facebook.com/ianiscool" target="_blank" id="contactLink3">Facebook</a>
-            <a href="https://twitter.com/ianjpollack" target="_blank" id="contactLink4">Twitter</a>
+            <h2 id="comedyText1">Is Ian funny?</h2>
+            <h2 id="comedyText2">No. But he tries really hard.</h2>
+            <h2 id="comedyText3">Don't believe me? Check out this sad collection of his life's work.</h2>
+            <h5 id="comedyText4">(for real though this could be pretty bad so just prepare yourself)</h5>
+
+            <a href="https://www.youtube.com/channel/UCCiax7QsqjC8XzyPGgrkQ2Q" target="_blank" id="comedyLink1(thatsasketch)">That's a Sketch</a>
+            <a href="https://www.youtube.com/channel/UCBj4O_Hh3vjDISy0FCwpM9g" target="_blank" id="comedyLink2(improvtopia)">Improvtopia</a>
+            
             <img src={otherImage} alt="Ian tie left" width="1200" height="800" ></img>
           </div>
         ) : (null)}
