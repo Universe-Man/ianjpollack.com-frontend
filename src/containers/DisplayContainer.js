@@ -1,7 +1,12 @@
 import React from 'react';
 import '../assets/DisplayContainer.css';
 import homeImage from '../images/ian_tie_center_whitebg.jpg';
-import otherImage from '../images/ian_tie_left_whitebg.jpg';
+import ianMessyTie from '../images/ian_tie_left_whitebg.jpg';
+import ianIsrealCoke from '../images/ian_israelCoke.jpg';
+import ianUranus from '../images/ian_uranus.jpg';
+import ianKatz from '../images/ian@katz.jpg';
+import ianDone from '../images/iandontwithfi.jpg';
+
 
 class DisplayContainer extends React.Component {
 
@@ -28,7 +33,7 @@ class DisplayContainer extends React.Component {
             <p id="aboutTextItem6">Likes boardgames not named "Clue".</p>
             <p id="aboutTextItem7">Can solve a Rubix Cube way slower than the guys on YouTube.</p>
             <p id="aboutTextItem8">Built this website with his own two hands.</p>
-            <img src={otherImage} alt="Ian tie left" width="1200" height="800" ></img>
+            <img src={ianMessyTie} alt="Ian tie left" width="1200" height="800" ></img>
           </div>
         ) : (null)}
         {(this.props.state.renderContact === true) ? (
@@ -40,7 +45,7 @@ class DisplayContainer extends React.Component {
             <a href="https://www.linkedin.com/in/ianjpollack/" target="_blank" id="contactLink2">LinkedIn</a>
             <a href="https://www.facebook.com/ianiscool" target="_blank" id="contactLink3">Facebook</a>
             <a href="https://twitter.com/ianjpollack" target="_blank" id="contactLink4">Twitter</a>
-            <img src={otherImage} alt="Ian tie left" width="1200" height="800" ></img>
+            <img src={ianMessyTie} alt="Ian tie left" width="1200" height="800" ></img>
           </div>
         ) : (null)}
 
@@ -60,7 +65,7 @@ class DisplayContainer extends React.Component {
             <a href="https://github.com/Universe-Man/module-one-final-project-guidelines-nyc-web-040218" target="_blank" id="projectRepoLink6(D/D-Shortcut)">D&D Shortcut</a>
             <a href="https://github.com/Universe-Man/ianjpollack.com-frontend" target="_blank" id="projectRepoLink7(ianjpollack.com)">This Website!</a>
 
-            <img src={otherImage} alt="Ian tie left" width="1200" height="800" ></img>
+            <img src={ianIsrealCoke} alt="Ian tie left" width="1200" height="800" ></img>
           </div>
         ) : (null)}
 
@@ -74,8 +79,8 @@ class DisplayContainer extends React.Component {
 
             <a href="https://www.youtube.com/channel/UCCiax7QsqjC8XzyPGgrkQ2Q" target="_blank" id="comedyLink1(thatsasketch)">That's a Sketch</a>
             <a href="https://www.youtube.com/channel/UCBj4O_Hh3vjDISy0FCwpM9g" target="_blank" id="comedyLink2(improvtopia)">Improvtopia</a>
-            
-            <img src={otherImage} alt="Ian tie left" width="1200" height="800" ></img>
+
+            <img src={ianUranus} alt="Ian tie left" width="1200" height="800" ></img>
           </div>
         ) : (null)}
 
