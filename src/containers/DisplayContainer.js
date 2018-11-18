@@ -43,6 +43,39 @@ class DisplayContainer extends React.Component {
             <img src={otherImage} alt="Ian tie left" width="1200" height="800" ></img>
           </div>
         ) : (null)}
+
+
+        {(this.props.state.renderCode === true) ? (
+          <div id="codePage">
+            <br></br>
+            <h2 id="codeText1">Can Ian Code?</h2>
+            <h2 id="codeText2">Heck yes he can!</h2>
+            <h2 id="codeText3">Check out some of his stellar projects:</h2>
+
+            <a href="https://github.com/Universe-Man" target="_blank" id="contactLink1">Github</a>
+            <a href="https://www.linkedin.com/in/ianjpollack/" target="_blank" id="contactLink2">LinkedIn</a>
+            <a href="https://www.facebook.com/ianiscool" target="_blank" id="contactLink3">Facebook</a>
+            <a href="https://twitter.com/ianjpollack" target="_blank" id="contactLink4">Twitter</a>
+
+            <img src={otherImage} alt="Ian tie left" width="1200" height="800" ></img>
+          </div>
+        ) : (null)}
+
+        {(this.props.state.renderComedy === true) ? (
+          <div id="contactPage">
+            <br></br>
+            <h2 id="contactText1">Is Ian a real person?</h2>
+            <h2 id="contactText2">Yes! And here's the proof:</h2>
+            <a href="https://github.com/Universe-Man" target="_blank" id="contactLink1">Github</a>
+            <a href="https://www.linkedin.com/in/ianjpollack/" target="_blank" id="contactLink2">LinkedIn</a>
+            <a href="https://www.facebook.com/ianiscool" target="_blank" id="contactLink3">Facebook</a>
+            <a href="https://twitter.com/ianjpollack" target="_blank" id="contactLink4">Twitter</a>
+            <img src={otherImage} alt="Ian tie left" width="1200" height="800" ></img>
+          </div>
+        ) : (null)}
+
+
+
         <footer id="footer">
           <p>© 2018 by Ian Pollack</p>
         </footer>
