@@ -18,7 +18,7 @@ class DisplayContainer extends React.Component {
             <br></br>
             <h2 id="homeText1">Ian Pollack</h2>
             <h2 id="homeText2">thinks you're cool</h2>
-            <img src={homeImage} alt="Ian tie center" width="1200" height="800" ></img>
+            <img src={homeImage} alt="Ian tie center" class="images" ></img>
           </div>
         ) : (null)}
         {(this.props.state.renderAbout === true) ? (
@@ -33,7 +33,7 @@ class DisplayContainer extends React.Component {
             <p id="aboutTextItem6">Likes boardgames not named "Clue".</p>
             <p id="aboutTextItem7">Can solve a Rubix Cube way slower than the guys on YouTube.</p>
             <p id="aboutTextItem8">Built this website with his own two hands.</p>
-            <img src={ianMessyTie} alt="Ian tie left" width="1200" height="800" ></img>
+            <img src={ianMessyTie} alt="Ian tie left" class="images" ></img>
           </div>
         ) : (null)}
         {(this.props.state.renderContact === true) ? (
@@ -45,7 +45,7 @@ class DisplayContainer extends React.Component {
             <a href="https://www.linkedin.com/in/ianjpollack/" target="_blank" id="contactLink2">LinkedIn</a>
             <a href="https://www.facebook.com/ianiscool" target="_blank" id="contactLink3">Facebook</a>
             <a href="https://twitter.com/ianjpollack" target="_blank" id="contactLink4">Twitter</a>
-            <img src={ianMessyTie} alt="Ian tie left" width="1200" height="800" ></img>
+            <img src={ianMessyTie} alt="Ian tie left" class="images" ></img>
           </div>
         ) : (null)}
         <footer id="footer">
