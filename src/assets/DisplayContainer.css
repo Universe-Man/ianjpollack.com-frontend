@@ -5,6 +5,7 @@
   font-size: 25px;
   padding: 15px;
   background-color: #4c6384;
+  margin-top: 85px;
 }
 
 /* ALL TEXT COLOR WAS #4c6384 AND CHANGED TO #33af56 BECAUSE OF SYTLING ISSUES WITH THE BACKGROUND */
@@ -29,18 +30,18 @@
 
 
   #homeText1 {
-    font-size: 50px;
+    font-size: 55px;
     color: #33af56;
     position: relative;
     left: -10px;
-    top: -20px;
+    top: -30px;
   }
   #homeText2 {
-    font-size: 45px;
+    font-size: 30px;
     color: #33af56;
     position: relative;
-    right: 115px;
-    bottom: 70px;
+    right: -15px;
+    bottom: 20px;
   }
   #aboutText1 {
     font-size: 45px;
@@ -152,7 +153,25 @@
     top: 600px;
   }
 
+  @media screen and (min-width: 375px) {
+    #footer {
+      margin-top: 60px;
+    }
 
+  }
+
+  @media screen and (min-width: 425px) {
+    #footer {
+      margin-top: 25px;
+    }
+  }
+
+  @media screen and (min-width: 480px) {
+    #footer {
+      margin-top: 0px;
+    }
+
+  }
 
 
 
