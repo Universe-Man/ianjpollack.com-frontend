@@ -157,7 +157,6 @@
     #footer {
       margin-top: 60px;
     }
-
   }
 
   @media screen and (min-width: 425px) {
@@ -170,9 +169,40 @@
     #footer {
       margin-top: 0px;
     }
+    #homeText1 {
+      font-size: 75px;
+      right: -25px;
+    }
+    #homeText2 {
+      font-size: 35px;
+      right: -65px;
+    }
 
   }
 
+  @media screen and (min-width: 600px) {
+
+  }
+
+  @media screen and (min-width: 700px) {
+
+  }
+
+  @media screen and (min-width: 800px) {
+
+  }
+
+  @media screen and (min-width: 900px) {
+
+  }
+
+  @media screen and (min-width: 1000px) {
+
+  }
+
+  @media screen and (min-width: 1150px) {
+
+  }
 
 
 
