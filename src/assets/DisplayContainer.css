@@ -37,199 +37,194 @@
 
 
 
+#homeText1 {
+  font-size: 55px;
+  color: #33af56;
+  position: relative;
+  left: -10px;
+  top: -30px;
+}
+#homeText2 {
+  font-size: 30px;
+  color: #33af56;
+  position: relative;
+  right: -15px;
+  bottom: 20px;
+}
+#aboutText1 {
+  font-size: 45px;
+  color: #33af56;
+  position: relative;
+  left: 80px;
+  top: 100px;
+}
+#aboutTextItem1 {
+  font-size: 30px;
+  color: #33af56;
+  position: relative;
+  left: 90px;
+  bottom: 560px;
+  width: 300px;
+}
+#aboutTextItem2 {
+  font-size: 30px;
+  color: #33af56;
+  position: relative;
+  left: 100px;
+  bottom: 220px;
+  width: 160px;
+}
+#aboutTextItem3 {
+  font-size: 30px;
+  color: #33af56;
+  position: relative;
+  left: 70px;
+  top: 370px;
+}
+#aboutTextItem4 {
+  font-size: 30px;
+  color: #33af56;
+  position: relative;
+  right: 120px;
+  bottom: 525px;
+  width: 400px;
+}
+#aboutTextItem5 {
+  font-size: 30px;
+  color: #33af56;
+  position: relative;
+  right: 80px;
+  bottom: 35px;
+}
+#aboutTextItem6 {
+  font-size: 30px;
+  color: #33af56;
+  position: relative;
+  right: 150px;
+  bottom: 450px;
+}
+#aboutTextItem7 {
+  font-size: 30px;
+  color: #33af56;
+  position: relative;
+  right: 100px;
+  bottom: 225px;
+  width: 500px;
+}
+#aboutTextItem8 {
+  font-size: 30px;
+  color: #33af56;
+  position: relative;
+  right: 100px;
+  bottom: 365px;
+}
+#contactText1 {
+  font-size: 50px;
+  color: #33af56;
+  position: relative;
+  left: 80px;
+  top: 105px;
+}
+#contactText2 {
+  font-size: 50px;
+  color: #33af56;
+  position: relative;
+  right: 100px;
+  top: 155px;
+}
+#contactLink1 {
+  font-size: 40px;
+  color: #33af56;
+  position: relative;
+  right: 500px;
+  top: 315px;
+}
+#contactLink2 {
+  font-size: 40px;
+  color: #33af56;
+  position: relative;
+  right: 400px;
+  top: 500px;
+}
+#contactLink3 {
+  font-size: 40px;
+  color: #33af56;
+  position: relative;
+  right: 180px;
+  top: 390px;
+}
+#contactLink4 {
+  font-size: 40px;
+  color: #33af56;
+  position: relative;
+  right: 150px;
+  top: 600px;
+}
+
+@media screen and (min-width: 375px) {
+  #footer {
+    margin-top: 60px;
+  }
+}
+
+@media screen and (min-width: 425px) {
+  #footer {
+    margin-top: 25px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  #footer {
+    margin-top: 0px;
+  }
   #homeText1 {
-    font-size: 55px;
-    color: #33af56;
-    position: relative;
-    left: -10px;
-    top: -30px;
+    font-size: 75px;
+    right: -25px;
   }
   #homeText2 {
-    font-size: 30px;
-    color: #33af56;
-    position: relative;
-    right: -15px;
-    bottom: 20px;
+    font-size: 35px;
+    right: -65px;
   }
-  #aboutText1 {
-    font-size: 45px;
-    color: #33af56;
-    position: relative;
-    left: 80px;
-    top: 100px;
+
+}
+
+@media screen and (min-width: 600px) {
+  #homeText1 {
+    font-size: 90px;
+    right: -25px;
   }
-  #aboutTextItem1 {
-    font-size: 30px;
-    color: #33af56;
-    position: relative;
-    left: 90px;
-    bottom: 560px;
-    width: 300px;
+  #homeText2 {
+    font-size: 40px;
+    right: -65px;
   }
-  #aboutTextItem2 {
-    font-size: 30px;
-    color: #33af56;
-    position: relative;
-    left: 100px;
-    bottom: 220px;
-    width: 160px;
+}
+
+@media screen and (min-width: 700px) {
+
+}
+
+@media screen and (min-width: 800px) {
+
+}
+
+@media screen and (min-width: 900px) {
+
+}
+
+@media screen and (min-width: 1000px) {
+  #homeText1 {
+    font-size: 100px;
+    left: -170px;
   }
-  #aboutTextItem3 {
-    font-size: 30px;
-    color: #33af56;
-    position: relative;
-    left: 70px;
-    top: 370px;
-  }
-  #aboutTextItem4 {
-    font-size: 30px;
-    color: #33af56;
-    position: relative;
-    right: 120px;
-    bottom: 525px;
-    width: 400px;
-  }
-  #aboutTextItem5 {
-    font-size: 30px;
-    color: #33af56;
-    position: relative;
-    right: 80px;
-    bottom: 35px;
-  }
-  #aboutTextItem6 {
-    font-size: 30px;
-    color: #33af56;
-    position: relative;
-    right: 150px;
-    bottom: 450px;
-  }
-  #aboutTextItem7 {
-    font-size: 30px;
-    color: #33af56;
-    position: relative;
-    right: 100px;
-    bottom: 225px;
-    width: 500px;
-  }
-  #aboutTextItem8 {
-    font-size: 30px;
-    color: #33af56;
-    position: relative;
-    right: 100px;
-    bottom: 365px;
-  }
-  #contactText1 {
+  #homeText2 {
     font-size: 50px;
-    color: #33af56;
-    position: relative;
-    left: 80px;
-    top: 105px;
+    left: 235px;
   }
-  #contactText2 {
-    font-size: 50px;
-    color: #33af56;
-    position: relative;
-    right: 100px;
-    top: 155px;
-  }
-  #contactLink1 {
-    font-size: 40px;
-    color: #33af56;
-    position: relative;
-    right: 500px;
-    top: 315px;
-  }
-  #contactLink2 {
-    font-size: 40px;
-    color: #33af56;
-    position: relative;
-    right: 400px;
-    top: 500px;
-  }
-  #contactLink3 {
-    font-size: 40px;
-    color: #33af56;
-    position: relative;
-    right: 180px;
-    top: 390px;
-  }
-  #contactLink4 {
-    font-size: 40px;
-    color: #33af56;
-    position: relative;
-    right: 150px;
-    top: 600px;
-  }
+}
 
-  @media screen and (min-width: 375px) {
-    #footer {
-      margin-top: 60px;
-    }
-  }
+@media screen and (min-width: 1150px) {
 
-  @media screen and (min-width: 425px) {
-    #footer {
-      margin-top: 25px;
-    }
-  }
-
-  @media screen and (min-width: 480px) {
-    #footer {
-      margin-top: 0px;
-    }
-    #homeText1 {
-      font-size: 75px;
-      right: -25px;
-    }
-    #homeText2 {
-      font-size: 35px;
-      right: -65px;
-    }
-
-  }
-
-  @media screen and (min-width: 600px) {
-    #homeText1 {
-      font-size: 90px;
-      right: -25px;
-    }
-    #homeText2 {
-      font-size: 40px;
-      right: -65px;
-    }
-  }
-
-  @media screen and (min-width: 700px) {
-
-  }
-
-  @media screen and (min-width: 800px) {
-
-  }
-
-  @media screen and (min-width: 900px) {
-
-  }
-
-  @media screen and (min-width: 1000px) {
-    #homeText1 {
-      font-size: 100px;
-      left: -170px;
-    }
-    #homeText2 {
-      font-size: 50px;
-      left: 235px;
-    }
-  }
-
-  @media screen and (min-width: 1150px) {
-
-  }
-
-
-
-
-
+}
 
 @media screen and (min-width: 1280px) {
   #homeText1 {
