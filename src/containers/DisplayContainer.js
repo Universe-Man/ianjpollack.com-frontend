@@ -41,6 +41,7 @@ class DisplayContainer extends React.Component {
             <br></br>
             <h2 id="contactText1">Is Ian a real person?</h2>
             <h2 id="contactText2">Yes! And here's the proof:</h2>
+            <h2 id="contactTextSmallScreen">Look at Ian's Stuff!</h2>
             <a href="https://github.com/Universe-Man" target="_blank" id="contactLink1">Github</a>
             <a href="https://www.linkedin.com/in/ianjpollack/" target="_blank" id="contactLink2">LinkedIn</a>
             <a href="https://www.facebook.com/ianiscool" target="_blank" id="contactLink3">Facebook</a>
