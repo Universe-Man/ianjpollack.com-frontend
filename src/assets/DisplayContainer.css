@@ -185,6 +185,7 @@ FINISH CONTACT PAGE COMPLETELY AT ALL SIZES BEFORE YOU START ABOUT PAGE BECAUSE 
   }
 }
 
+/* done except for about */
 @media screen and (min-width: 480px) {
   #footer {
     margin-top: 0px;
@@ -198,8 +199,47 @@ FINISH CONTACT PAGE COMPLETELY AT ALL SIZES BEFORE YOU START ABOUT PAGE BECAUSE 
     right: -65px;
   }
 
+  #contactTextSmallScreen {
+    font-size: 40px;
+    color: #33af56;
+    position: absolute;
+    right: 60px;
+    top: 85px;
+    width: 100%;
+  }
+  #contactLink1 {
+    font-size: 30px;
+    color: #33af56;
+    position: absolute;
+    right: 150px;
+    top: 190px;
+  }
+  #contactLink2 {
+    font-size: 30px;
+    color: #33af56;
+    position: absolute;
+    right: 110px;
+    top: 280px;
+  }
+  #contactLink3 {
+    font-size: 30px;
+    color: #33af56;
+    position: absolute;
+    right: 30px;
+    top: 235px;
+  }
+  #contactLink4 {
+    font-size: 30px;
+    color: #33af56;
+    position: absolute;
+    right: 15px;
+    top: 320px;
+  }
+
+
 }
 
+/* done except for about */
 @media screen and (min-width: 600px) {
   #homeText1 {
     font-size: 90px;
@@ -209,6 +249,45 @@ FINISH CONTACT PAGE COMPLETELY AT ALL SIZES BEFORE YOU START ABOUT PAGE BECAUSE 
     font-size: 40px;
     right: -65px;
   }
+
+  #contactTextSmallScreen {
+    font-size: 45px;
+    color: #33af56;
+    position: absolute;
+    right: 90px;
+    top: 90px;
+    width: 100%;
+  }
+  #contactLink1 {
+    font-size: 35px;
+    color: #33af56;
+    position: absolute;
+    right: 200px;
+    top: 200px;
+  }
+  #contactLink2 {
+    font-size: 35px;
+    color: #33af56;
+    position: absolute;
+    right: 150px;
+    top: 340px;
+  }
+  #contactLink3 {
+    font-size: 35px;
+    color: #33af56;
+    position: absolute;
+    right: 50px;
+    top: 270px;
+  }
+  #contactLink4 {
+    font-size: 35px;
+    color: #33af56;
+    position: absolute;
+    right: 20px;
+    top: 380px;
+  }
+
+
 }
 
 /* done except for about */
@@ -258,7 +337,7 @@ FINISH CONTACT PAGE COMPLETELY AT ALL SIZES BEFORE YOU START ABOUT PAGE BECAUSE 
     font-size: 45px;
     color: #33af56;
     position: absolute;
-    right: 530px;
+    right: 535px;
     top: 105px;
     width: 270px;
   }
@@ -315,7 +394,7 @@ FINISH CONTACT PAGE COMPLETELY AT ALL SIZES BEFORE YOU START ABOUT PAGE BECAUSE 
     font-size: 45px;
     color: #33af56;
     position: absolute;
-    right: 560px;
+    right: 610px;
     top: 105px;
   }
   #contactLink1 {
